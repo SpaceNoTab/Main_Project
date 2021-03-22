@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.aj.myn.Attendance"
+    android:padding="20dp">
+
+
+    <TextView
+        android:id="@+id/tv_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:text="Subject name"
+        android:textColor="#1b469e"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/ls_listView"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_sub"
+        android:divider="#020101"
+        android:dividerHeight="1dp"
+        android:listSelector="#ec6464"
+        tools:ignore="UnknownId"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <ImageView
+        android:id="@+id/forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_sub"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/tv_sub"
+        app:srcCompat="@drawable/next" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forward"
+        android:layout_marginStart="59dp"
+        android:layout_toEndOf="@+id/tv_sub"
+        android:text="Next"
+        android:textColor="@android:color/black" />
+
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/ch"
+        android:layout_width="40dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="50dp"
+        android:checked="true" />
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="    Date-Month-Year"
+        android:textSize="20dp"
+        android:textColor="#080808"/>
+
+
+
+</LinearLayout>

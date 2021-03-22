@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Myn</string>
+
+    <string-array name="spinner1">
+        <item>Exam</item>
+        <item>Placement</item>
+        <item>Workshops</item>
+        <item>Cordination</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="spinner2">
+        <item>Tutor</item>
+        <item>Placement Cell</item>
+        <item>Office</item>
+        <item>Other</item>
+    </string-array>
+</resources>
